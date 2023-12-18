@@ -6,7 +6,9 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 12rem;
+    padding-right: 12rem;
     align-items: center;
     background-color: #1f2937;
 
@@ -19,4 +21,19 @@ body {
     color: #E5E7EB;
     font-size: 18px;
     text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    gap: 5rem;
+}
+
+.skeleton {
+    max-width: 500px;
 }
