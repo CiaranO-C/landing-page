@@ -82,7 +82,16 @@ button {
     align-items: flex-start;
 }
 
-.sign-up-text button {
-    border: solid white;
+.white-border {
+    border: 2px solid white;
 }
 
+.quote-container {
+    background-color: #E5E7EB;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: #E5E7EB;
+}
