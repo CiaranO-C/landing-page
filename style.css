@@ -36,4 +36,30 @@ body {
 
 .skeleton {
     max-width: 500px;
+    max-height: auto;
+}
+
+.random-container {
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+   align-items: center;
+   padding-top: 30px;
+    padding-bottom: 35px;
+    gap: 30px;
+}
+
+.content {
+    display: flex;
+    gap: 3rem;
+}
+
+.square {
+    display: flex;
+    flex-direction: column;
+    max-width: 190px;
+}
+
+.square img {
+    border-radius: 10%;
 }
