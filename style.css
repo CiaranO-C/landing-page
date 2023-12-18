@@ -63,3 +63,26 @@ body {
 .square img {
     border-radius: 10%;
 }
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px 10px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sign-up-text button {
+    border: solid white;
+}
+
